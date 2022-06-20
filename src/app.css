@@ -1,0 +1,139 @@
+* {
+  vertical-align: baseline;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*Navbar.JSX*/
+.navbar {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1em;
+  background-color: #187d76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar span {
+  color: white;
+  margin: 0px 10px;
+}
+
+.navbar-logo {
+  color: #0d9e4a;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-style: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.2em;
+  background-color: #f45f38;
+  color: white;
+  border-radius: 50%;
+}
+
+
+/*habitAddForm.JSX*/
+.add-form {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.add-input {
+  margin-right: 1em;
+  width: 40em;
+}
+
+.add-button {
+  padding: 1em 1em;
+  background-color: #9ac8c2;
+  border-radius: 0.5em;
+}
+
+
+/*habits.JSX*/
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.habits ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.habits-reset {
+  margin-top: 5rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: #9ac8c2;
+  border-radius: 0.5em;
+  color: white;
+}
+
+
+/*habit.JSX*/
+
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  list-style: 2.5rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 50%;
+  vertical-align: baseline;
+}
+
+
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: #FED075;
+}
+
+
+.habit-delete {
+  font-size: 2rem;
+  color: #f45f38;
+}
